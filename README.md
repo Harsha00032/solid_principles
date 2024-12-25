@@ -1,13 +1,11 @@
 # Solid Principles
 
-Explains solid principle with easy examples, please feel free to clone, learn and contribute thanks!
+1. Single Responsibility Principle (SRP): Understanding how to ensure that each class has only one responsibility and how this helps in keeping the code maintainable.
 
-S - Single Responsibility Principle
+2. Open/Closed Principle (OCP): Learning to design classes that are open for extension but closed for modification, allowing for easier addition of new features.
 
-O - Open / Closed Principle
+3. Liskov Substitution Principle (LSP): Exploring how to design class hierarchies where derived classes can be used interchangeably with their base classes without breaking the system.
 
-L - Liskov Substitution Principle
+4. Interface Segregation Principle (ISP): Understanding how to keep interfaces small and focused, avoiding the problem of "fat interfaces" that force classes to implement unnecessary methods.
 
-I - Interface Segragation Principle
-
-D - Dependency Inversion Principle
+5. Dependency Inversion Principle (DIP): Learning to decouple high-level modules from low-level details by introducing abstractions, making the system flexible and easy to maintain.
