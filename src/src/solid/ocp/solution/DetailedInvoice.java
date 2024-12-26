@@ -1,4 +1,4 @@
-package solid.ocp;
+package solid.ocp.solution;
 
 // New class for generating detailed invoices
 public class DetailedInvoice implements InvoiceGenerator {

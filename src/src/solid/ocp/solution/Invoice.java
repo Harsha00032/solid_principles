@@ -1,4 +1,4 @@
-package solid.ocp;
+package solid.ocp.solution;
 
 public class Invoice {
     private final double amount;

@@ -1,4 +1,4 @@
-package solid.ocp;
+package solid.ocp.problem;
 
 public class OldInvoice {
     private double amount;
@@ -11,7 +11,7 @@ public class OldInvoice {
         return amount;
     }
 
-    // Adding new logic for international invoices
+    // Adding new logic for each invoice type is the problem - we're modifying the existing logic
     public void generateInvoice(String type) {
         if (type.equals("basic")) {
             System.out.println("Generating basic invoice for amount: " + amount);
