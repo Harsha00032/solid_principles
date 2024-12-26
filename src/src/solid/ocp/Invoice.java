@@ -2,7 +2,7 @@ package solid.ocp;
 
 public class Invoice {
     private final double amount;
-    private final InvoiceGenerator invoiceGenerator;
+    private final InvoiceGenerator invoiceGenerator; // to add a new invoice type, we do need to modify the Invoice class
 
     public Invoice(double amount, InvoiceGenerator invoiceGenerator){
         this.amount = amount;
