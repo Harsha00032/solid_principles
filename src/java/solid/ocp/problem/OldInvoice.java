@@ -1,5 +1,6 @@
 package solid.ocp.problem;
 
+// Adding new logic for each invoice type is the problem - we're modifying the existing logic - violates OCP
 public class OldInvoice {
     private double amount;
 
